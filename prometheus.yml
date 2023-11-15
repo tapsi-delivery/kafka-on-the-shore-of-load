@@ -1,0 +1,15 @@
+scrape_configs:
+  - job_name: 'spring kafka example'
+    scrape_interval: 2s
+    metrics_path: '/metrics'
+    static_configs:
+      - targets: [ 'localhost:9999' ]
+        labels:
+          group: 'spring-kafka-example'
+  - job_name: 'kafka metrics'
+    scrape_interval: 2s
+    metrics_path: '/metrics'
+    static_configs:
+      - targets: [ 'localhost:9308' ]
+        labels:
+          group: 'kafka_exporter'
