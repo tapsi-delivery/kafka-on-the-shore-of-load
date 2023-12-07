@@ -4,7 +4,7 @@ This project is a Spring Boot application written in Kotlin, which uses Kafka fo
 
 ## Prerequisites
 
-- Java 11 or higher
+- Java 17 or higher
 - Docker and Docker Compose
 - Gradle
 
@@ -12,8 +12,8 @@ This project is a Spring Boot application written in Kotlin, which uses Kafka fo
 
 1. Clone the repository:
 ```bash
-git clone git@github.com:tapsi-pack/kafka-produce-consumer-example.git
-cd your-repo-name
+git clone git@github.com:tapsi-pack/kafka-on-the-shore-of-load.git
+cd kafka-on-the-shore-of-load
 ```
 
 2. Build the project:
@@ -21,7 +21,7 @@ cd your-repo-name
 ./gradlew clean build
 ```
 
-3. Start the services (Kafka, MongoDB, Prometheus, Kafka-Node-Exporter) using Docker Compose:
+3. Start the services (Kafka, Prometheus, Kafka-Node-Exporter) using Docker Compose:
 ```bash
 docker-compose up -d
 ```
