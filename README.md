@@ -4,7 +4,7 @@ This project is a Spring Boot application written in Kotlin, which uses Kafka fo
 
 ## Prerequisites
 
-- Java 11 or higher
+- Java 17 or higher
 - Docker and Docker Compose
 - Gradle
 
